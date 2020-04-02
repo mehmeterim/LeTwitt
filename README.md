@@ -1,7 +1,5 @@
 # LeTwitt
-## Görev
- 
-### Ön tarafta (FE) Vue.js, arka tarafta (BE) Golang kullanarak yazılmış bir proje istenmektedir.
+## Görev : Ön tarafta (FE) Vue.js, arka tarafta (BE) Golang kullanarak yazılmış bir proje istenmektedir.
  
 ### Arayüz, kullanıcı girişi (login) ve post'ların olduğu bir dashboard olarak düşünülebilir. 
  
