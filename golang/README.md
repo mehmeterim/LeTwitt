@@ -1,17 +1,8 @@
-# vuejs client
+# golang server
 
-## Extract the project from vuejs.rar and enter the file of vuejs
-### Compiles and hot-reloads for development
+## Run The Server
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+go run server.go
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+
