@@ -15,3 +15,5 @@ npm run build
 ```
 npm run lint
 ```
+
+### NOTE : It's working on the localhost:8081
