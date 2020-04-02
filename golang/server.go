@@ -160,7 +160,7 @@ func login(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Access-Control-Allow-Origin", "*")
 	w.Header().Add("Access-Control-Allow-Credentials", "true")
 
-	db, err := sql.Open("sqlite3", "./paylasim.db")
+	db, err := sql.Open("sqlite3", "./database.db")
 
 	checkErr(err)
 
@@ -206,7 +206,7 @@ func checkLogin(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Access-Control-Allow-Credentials", "true")
 	w.Header().Add("Content-type", "multipart/form-data")
 
-	db, err := sql.Open("sqlite3", "./paylasim.db")
+	db, err := sql.Open("sqlite3", "./database.db")
 	checkErr(err)
 
 	keys := r.URL.Query()
@@ -251,7 +251,7 @@ func getposts(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Access-Control-Allow-Origin", "*")
 	w.Header().Add("Access-Control-Allow-Credentials", "true")
 
-	db, err := sql.Open("sqlite3", "./paylasim.db")
+	db, err := sql.Open("sqlite3", "./database.db")
 
 	checkErr(err)
 	/*	mapD := map[string]int{"apple": 5, "lettuce": 7}
@@ -305,7 +305,7 @@ func addPost(w http.ResponseWriter, r *http.Request) {
 	userid := fmt.Sprintf("%v", userMap["id"])
 	date := time.Now()
 	date2 := date.Format("2006-01-02")
-	db, err := sql.Open("sqlite3", "./paylasim.db")
+	db, err := sql.Open("sqlite3", "./database.db")
 
 	checkErr(err)
 
