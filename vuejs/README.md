@@ -1,4 +1,4 @@
-# vuejs client
+# Client (VueJS)
 
 ## Extract the project from vuejs.rar and enter the file of vuejs
 ### Compiles and hot-reloads for development
