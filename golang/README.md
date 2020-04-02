@@ -10,6 +10,6 @@ open the server.exe
 ```
 
 
-### NOTE : It's working on the localhost:8081
+### NOTE : You need to copy the src file to your in the golang src file. It's working on the localhost:8081
 
 
