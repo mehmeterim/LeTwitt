@@ -1,7 +1,7 @@
 # vuejs client
 
-## Extract the project from vuejs.rar
-
+## Extract the project from vuejs.rar and enter the file of vuejs
+```
 ### Compiles and hot-reloads for development
 ```
 npm run serve
