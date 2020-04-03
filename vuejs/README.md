@@ -17,3 +17,4 @@ npm run lint
 ```
 
 ### NOTE : It's working on the localhost:8080
+### Account for login, usernames: mehmet,sedef,ayse password:123
